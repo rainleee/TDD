@@ -4,7 +4,7 @@
   "description": "practice TDD(Test Driven Development)",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/rainleee/TDD/issues"
   },
-  "homepage": "https://github.com/rainleee/TDD#readme"
+  "homepage": "https://github.com/rainleee/TDD#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.3"
+  }
 }
